@@ -66,7 +66,7 @@ const TodoApp = () => {
                 className="flex flex-col md:flex-row  items-center justify-center space-x-4 mt-4"
                 key={index}
               >
-                <li className="  bg-emerald-100 rounded-md md:mt-4 w-2/3 px-8 py-2 text-lg ">
+                <li className="w-full  bg-emerald-100 rounded-md md:mt-4 md:w-2/3 px-8 py-2 text-lg ">
                   {todo}
                 </li>
                 <button
